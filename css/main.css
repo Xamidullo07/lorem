@@ -59,21 +59,26 @@ body {
 }
 
 .main_header {
-  padding-top: 24px;
   padding-bottom: 24px;
-  background: #DF7C14;
+  padding-top: 24px;
+  background: #dc7000;
 }
 .main_header__top {
-  background-color: white;
-  margin-bottom: 24px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-  gap: 100px;
   display: none;
+}
+.main_header__lokot {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: #1a1a1a;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.main_header__tel {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 10px;
+  color: #1a1a1a;
 }
 .main_header__blok {
   display: -webkit-box;
@@ -95,6 +100,12 @@ body {
   font-size: 16px;
   color: #fff;
 }
+.main_header__item:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 .main_header__btn {
   font-family: var(--font-family);
   font-weight: 400;
@@ -104,9 +115,33 @@ body {
   background: #fff;
   padding: 11px 28px;
 }
+.main_header__btn:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
 @media screen and (min-width: 768px) {
   .main_header__list {
     display: inline-block;
+  }
+  .main_header__top {
+    background-color: white;
+    margin-bottom: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 100px;
+    padding-right: 150px;
+  }
+  .main_header {
+    padding-top: 0;
   }
   .main_header__menu {
     display: none;
@@ -163,6 +198,12 @@ body {
   padding: 11px 28px;
   border-radius: 40px;
   background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
+}
+.hero_section__btn:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .hero_section__img {
   display: none;
@@ -308,6 +349,12 @@ body {
 .offer_section__item {
   text-align: center;
   margin-bottom: 65px;
+}
+.offer_section__item:hover {
+  -webkit-transform: scale(1.06);
+          transform: scale(1.06);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 .offer_section__img {
   margin-bottom: 30px;

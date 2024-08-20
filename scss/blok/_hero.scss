@@ -45,6 +45,11 @@
         border-radius: 40px;
         background: linear-gradient(113deg, #fa8305 0%, #fb9e3c 100%);
 
+        &:hover{
+            transform: scale(1.06);
+            transition: 0.4s;
+           
+        }
     }
 
     &__img {
